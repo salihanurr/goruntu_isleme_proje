@@ -1,7 +1,7 @@
 
 # Hayvan Sınıflandırma Projesi
 
-kaggle proje linki: 
+kaggle proje linki: https://www.kaggle.com/code/salihanur/g-i-odev
 
   Bu proje, **Convolutional Neural Network (CNN)** kullanarak 10 farklı hayvan sınıfını sınıflandırmak amacıyla geliştirilmiştir. Proje, veri hazırlama, model eğitimi, test setleri üzerinde değerlendirme ve farklı manipülasyon tekniklerinin etkilerini analiz etme aşamalarını içermektedir.
 

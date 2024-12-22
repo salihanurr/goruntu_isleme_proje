@@ -1,7 +1,9 @@
-# goruntu_isleme_proje
+
 # Hayvan Sınıflandırma Projesi
 
-Bu proje, **Convolutional Neural Network (CNN)** kullanarak 10 farklı hayvan sınıfını sınıflandırmak amacıyla geliştirilmiştir. Proje, veri hazırlama, model eğitimi, test setleri üzerinde değerlendirme ve farklı manipülasyon tekniklerinin etkilerini analiz etme aşamalarını içermektedir.
+kaggle proje linki: 
+
+  Bu proje, **Convolutional Neural Network (CNN)** kullanarak 10 farklı hayvan sınıfını sınıflandırmak amacıyla geliştirilmiştir. Proje, veri hazırlama, model eğitimi, test setleri üzerinde değerlendirme ve farklı manipülasyon tekniklerinin etkilerini analiz etme aşamalarını içermektedir.
 
 ## **Proje Adımları**
 
@@ -55,6 +57,6 @@ Bu proje, **Convolutional Neural Network (CNN)** kullanarak 10 farklı hayvan s�
 
 ## **Sonuçlar**
 Bu projede:
-1. CNN modeli, orijinal test setinde başarılı sonuçlar vermiştir.
-2. Manipüle edilmiş test setinde modelin performansı düşmüştür.
-3. Renk sabitliği uygulandıktan sonra, manipüle edilmiş test setindeki performans bir miktar iyileşmiştir.
+1. CNN modeli, orijinal test setinde %58.7 doğruluk oranıyla temel bir başarı göstermiştir.
+2. Manipüle edilmiş test setinde, modelin performansı %52.1’e düşmüştür. Bu, farklı ışık koşullarının modelin genelleme yeteneğini etkilediğini göstermektedir.
+3. Renk sabitliği uygulanmış test setinde doğruluk oranı %43.4’e düşmüştür. Bu durum, renk sabitliği algoritmasının bu veri seti ve model için uygun olmadığını göstermektedir.
